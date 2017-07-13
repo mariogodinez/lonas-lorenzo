@@ -18,7 +18,7 @@ body
   padding: 10px
 .languages
   background: #a3ffd0
-  width: 100px
+  width: 140px
 
 .pointer
   cursor: pointer
