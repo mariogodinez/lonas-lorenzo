@@ -44,7 +44,7 @@ export default {
     
     <footer class="home-footer padding10 width100 flex flex-middle flex-between">
       <div style="margin-left:100px">
-        <h4 class="text-cente margin0 color-white">©2017 Lonas Lorenzo todos los derechos reservados. </h4>
+        <h4 class="text-cente margin0 color-white">©2017 Big Span Structures todos los derechos reservados. </h4>
       </div>
       <article class="slide-actions flex flex-column flex-middle" style="margin-right:150px">
         <div class="color-white flex">
