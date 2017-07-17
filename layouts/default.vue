@@ -1,6 +1,16 @@
+<script type="text/javascript">
+</script>
+
 <template>
+
   <div>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">
+  <transition appear  name="custom-classes-transition"
+    enter-active-class="animated fadeIn"
+    leave-active-class="animated fadeOut">
     <nuxt/>
+  </transition>
   </div>
 </template>
 
@@ -17,7 +27,7 @@ body
   margin: 0 auto !important
   padding: 10px
 .languages
-  background: #a3ffd0
+  background: #10cfbd
   width: 140px
 
 .pointer
@@ -60,7 +70,8 @@ body
   line-height: 0 !important
   &:hover
     border-bottom: 2px solid transparent
-
+.border1white
+  border: 1px solid white
 .my-badge
   background: #fff
   border: 1px solid #ccc
@@ -74,11 +85,13 @@ body
   padding: 10px 30px
   border: 1px solid #eadddd
 .my-btn
-  padding: .6em 1.3em
+  padding: 6px 1em
   color: #fff
-  border-radius: 4px
-  font-size: 1.1em
+  border-radius: 20px
+  font-size: .9em
   transition: .2s
+  outline: 0
+  border: 0
   &:active
     box-shadow: 0 0 0  !important
     transform: scale(.95)
@@ -187,6 +200,9 @@ button.fixed
   margin-left: auto
   margin-right: auto
 
+.center-block
+  margin-right: auto
+  margin-left: auto
 
 .color-lightgray
   color: lightgray
@@ -194,7 +210,7 @@ button.fixed
 .color-gray
   color: gray
 .color-green
-  color: green
+  color: #10cfbd
 
 .border0
   border: 0 !important
@@ -249,6 +265,8 @@ button.fixed
   margin-left: 25px
 .margin-left15
   margin-left: 15px
+.margin-left5
+  margin-left: 5px
 
 .margin-right10
   margin-right: 10px
@@ -386,6 +404,9 @@ button.fixed
 .square30
   width: 30px
   height: 30px
+.square20
+  width: 20px
+  height: 20px
 
 .right0
   right: 0 !important
@@ -456,8 +477,8 @@ button.fixed
 .back-black
   background: #000000
 
-.back-yellow
-  background: yellow !important
+.back-green
+  background: #10cfbd
 
 
 .backYellow
@@ -588,7 +609,7 @@ button.fixed
   display: inline-block
 
 .shadow-btn
-  box-shadow: 0 0 20px #ccc
+  box-shadow: 0 0 20px #555
 
 .img-tiny
   width: 80px
