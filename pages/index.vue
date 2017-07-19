@@ -52,7 +52,7 @@ export default {
           <div class="margin-bottom10">
             <h2 class="font18 text-center margin0 ">
 
-            <router-link to="/arquitectura" class="color-green">Arquitectura textil</router-link>
+            <router-link to="./arquitectura" class="color-green">Arquitectura textil</router-link>
             </h2>
           </div>
           <Social></Social>
