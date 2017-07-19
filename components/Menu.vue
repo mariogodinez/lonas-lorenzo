@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<nav class="nav">
+		<nav class="nav" style="z-index:100;">
 			<div id="burger-menu" class="flex flex-middle">
 				<div class="square30 back-green border1white rounded flex flex-center flex-middle">
 					<span class="fa fa-bars color-white"></span>

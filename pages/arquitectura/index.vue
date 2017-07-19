@@ -65,11 +65,11 @@ export default {
 
 <template>
   <section class="" style="overflow:hidden;">
-    <Menu style="z-index:100;"></Menu>
+    <Menu></Menu>
     <header class="flex flex-between width100 padding20-0" style="position:absolute; z-index:10;">
       <div style="margin-left:100px;width:200px"></div>
       <figure class="margin0" style="width:200px">
-        <img class="width100" src="bigspan-logo.png">
+        <img class="width100" src="logo-bigspan.png">
       </figure>
       <div class="flex flex-middle flex-column" style="margin-right:100px;width:200px">
         <Social></Social>
