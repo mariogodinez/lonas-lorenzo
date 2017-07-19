@@ -3,22 +3,22 @@
   "all": [
     "0.nuxt.bundle.9b76c13aa256dd2efc28.js",
     "1.nuxt.bundle.0d03781d5058312f576d.js",
-    "2.nuxt.bundle.96baf1f3717bdeab2de1.js",
+    "2.nuxt.bundle.8049577fe4cceb56d58b.js",
     "3.nuxt.bundle.dca2e123e7073d1a4e91.js",
     "vendor.bundle.51cca3a40a43620550aa.js",
     "nuxt.bundle.7535dddb2045912b980f.js",
-    "manifest.ddd26d9973574ba04b76.js",
+    "manifest.47b7ed8dd7e7f73b9011.js",
     "index.html"
   ],
   "initial": [
-    "manifest.ddd26d9973574ba04b76.js",
+    "manifest.47b7ed8dd7e7f73b9011.js",
     "vendor.bundle.51cca3a40a43620550aa.js",
     "nuxt.bundle.7535dddb2045912b980f.js"
   ],
   "async": [
     "0.nuxt.bundle.9b76c13aa256dd2efc28.js",
     "1.nuxt.bundle.0d03781d5058312f576d.js",
-    "2.nuxt.bundle.96baf1f3717bdeab2de1.js",
+    "2.nuxt.bundle.8049577fe4cceb56d58b.js",
     "3.nuxt.bundle.dca2e123e7073d1a4e91.js"
   ],
   "modules": {
