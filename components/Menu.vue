@@ -50,6 +50,7 @@
 	position: absolute
 	margin-left: 30px
 	border-left: 4px solid white
+	z-index: 100
 	#burger-menu
 		position: relative
 		left: -18px
