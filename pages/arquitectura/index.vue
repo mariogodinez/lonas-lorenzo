@@ -12,19 +12,19 @@ export default {
       slideImages: [
         {
           id: 1,
-          name: 'slider1.png'
+          name: '/slider1.png'
         },
         {
           id: 2,
-          name: 'slider2.png'
+          name: '/slider2.png'
         },
         {
           id: 3,
-          name: 'slider3.png'
+          name: '/slider3.png'
         },
         {
           id: 4,
-          name: 'slider4.png'
+          name: '/slider4.png'
         }
       ]
     }

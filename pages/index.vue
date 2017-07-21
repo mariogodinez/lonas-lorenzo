@@ -22,6 +22,7 @@ export default {
 </script>
 
 <template>
+
   <section class="" style="overflow:hidden;">
     <article class="home flex width100" style="height:100vh">
       <div class="option">
@@ -41,6 +42,7 @@ export default {
       </p>
     </div>
 
+
     <section class="width100 back-white home-banner flex padding20-0 flex-center">
       <article class="home-banner-item flex  flex-right" style="padding-right:3px; border-right: 3px solid gray; ">
         <div style="margin-right:80px; width:200px">
@@ -49,8 +51,8 @@ export default {
           </figure>
           <div class="margin-bottom10">
             <h2 class="font18 text-center margin0 ">
-              
-            <router-link to="/arquitectura" class="color-green">Arquitectura textil</router-link>
+
+            <router-link to="./arquitectura" class="color-green">Arquitectura textil</router-link>
             </h2>
           </div>
           <Social></Social>
@@ -63,15 +65,16 @@ export default {
           </figure>
           <div class="margin-bottom10 margin-top10">
             <h2 class="font18 text-center margin0" >
-              
+
             <router-link to="/industrial" style="color:#597280;">Industrial</router-link>
             </h2>
           </div>
           <Social></Social>
         </div>
+
       </article>
     </section>
-    
+
     <footer class="home-footer width100 flex flex-center flex-middle">
       <h4 class="text-cente margin0 color-white">©2017 Lonas Lorenzo todos los derechos reservados.</h4>
     </footer>
