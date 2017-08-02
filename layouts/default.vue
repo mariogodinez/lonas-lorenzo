@@ -6,6 +6,7 @@
   <div>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800" rel="stylesheet">
   <transition appear  name="custom-classes-transition"
     enter-active-class="animated fadeIn"
     leave-active-class="animated fadeOut">
@@ -16,19 +17,27 @@
 
 <style lang="sass">
 
-
-
+.nuxt-link-active
+  color: #10cfbd !important
+.back-darkblue
+  background: #1a4052
+.color-middlegray
+  color: #3d6475
+.hide
+  display: none
 body
   color: #000 !important
   margin: 0
   padding: 0
+  font-family: 'Montserrat', arial
+  font-size: 15px
 .content
   max-width: 1100px
   margin: 0 auto !important
   padding: 10px
 .languages
   background: #10cfbd
-  width: 140px
+  width: 170px
 
 .pointer
   cursor: pointer
@@ -342,6 +351,11 @@ button.fixed
 .padding0
   padding: 0 !important
 
+.padding-left5
+  padding-left: 5px
+
+.padding-left10
+  padding-left: 10px
 .padding5
   padding: 5px
 .padding15
@@ -404,6 +418,14 @@ button.fixed
 .square30
   width: 30px
   height: 30px
+
+.square35
+  width: 35px
+  height: 35px
+
+.square40
+  width: 40px
+  height: 40px
 .square20
   width: 20px
   height: 20px
@@ -425,6 +447,9 @@ button.fixed
 
 .font15
   font-size: 15px
+
+.font14
+  font-size: 14px
 
 .font20
   font-size: 20px
@@ -468,6 +493,10 @@ button.fixed
 
 .text-uppercase
   text-transform: uppercase !important
+
+.text-justify
+  text-align: justify
+  line-height: 1em
 
 .text-lowercase
   text-transform: lowercase !important
@@ -602,7 +631,9 @@ button.fixed
 
 .checkWrap input:checked ~ .check-icon
   opacity: 1
-
+html, body
+  overflow: hidden !important
+  
 .hideMobile
   display: none
 .showMobile

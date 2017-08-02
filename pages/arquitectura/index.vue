@@ -72,8 +72,8 @@ export default {
         <img class="width100" src="logo-bigspan.png">
       </figure>
       <div class="flex flex-middle flex-column" style="margin-right:100px;width:200px">
-        <Social></Social>
-         <button style="margin-top:7px; " class="center-block my-btn back-green shadow-btn pointer">Descargar catalogo</button>
+        <Social color="white"></Social>
+         <button style="margin-top:7px; " class="center-block my-btn back-green shadow-btn pointer">Descargar Catálogo</button>
       </div>
     </header>
     <article class="home flex width100" style="height:100vh; overflow:hidden">
@@ -87,7 +87,7 @@ export default {
     </article>
     
     <footer class="home-footer padding10-0 width100 flex flex-middle flex-between">
-      <article class="flex flex-middle" style="margin-left:90px">
+      <article class="flex flex-middle" style="margin-left:68px">
         <div class="flex flex-column flex-center" style="position:relative; top:-20px">
           <h4 class="margin0 color-white text-center">¿Tienes un proyecto <br> de menos de 600m? </h4>
           <button class="pointer center-block shadow-btn my-btn back-green" style="margin-top:8px; width:100px">
