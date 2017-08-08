@@ -56,11 +56,10 @@ export default {
       <article class="home-banner-item flex  flex-right relative" style="padding-right:3px; border-right: 3px solid gray; ">
         <div style="margin-right:80px; width:200px">
           <figure class="margin0 width100 relative" style="right:20px">
-            <img class="width100" style="" src="logo-bigspan.png">
+            <img class="width100" style="" src="/logo-bigSpan.png">
           </figure>
           <div class="margin-bottom10">
             <h2 class="font18 text-center margin0 ">
-
             <router-link to="./arquitectura" class="color-green">Arquitectura textil</router-link>
             </h2>
           </div>

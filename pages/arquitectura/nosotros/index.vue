@@ -70,7 +70,7 @@ export default {
     leave-active-class="animated bounceOutRight" class="relative">
           <article class="padding0-20 flex flex-column flex-center height100" style="position:absolute; top:0;" v-if="showItem == 1" key="1">
             <figure class="marign0" style="width: 150px">
-              <img class="width100" src="/logo-bigspan.png">
+              <img class="width100" src="/logo-bigSpan.png">
             </figure>
             <section class="flex flex-between" style="font-size:.9em;">
               <div class="widthHalf margin-right25" >
