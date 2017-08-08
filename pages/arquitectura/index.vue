@@ -69,7 +69,7 @@ export default {
     <header class="flex flex-between width100 padding20-0" style="position:absolute; z-index:10;">
       <div style="margin-left:100px;width:200px"></div>
       <figure class="margin0" style="width:200px">
-        <img class="width100" src="logo-bigspan.png">
+        <img class="width100" src="/bigspan-white.png">
       </figure>
       <div class="flex flex-middle flex-column" style="margin-right:100px;width:200px">
         <Social color="white"></Social>
@@ -89,23 +89,23 @@ export default {
     <footer class="home-footer padding10-0 width100 flex flex-middle flex-between">
       <article class="flex flex-middle" style="margin-left:68px">
         <div class="flex flex-column flex-center" style="position:relative; top:-20px">
-          <h4 class="margin0 color-white text-center">¿Tienes un proyecto <br> de menos de 600m? </h4>
+          <h4 class="margin0 color-white text-center" style="text-shadow:0 0 3px #000;">¿Necesitas una <br> cotización?</h4>
           <button class="pointer center-block shadow-btn my-btn back-green" style="margin-top:8px; width:100px">
             <span class="color-white">Click aquí</span>
           </button>
         </div>
         <div class="margin0-20">
-          <h4 class="text-center margin0 color-white font15">©2017 Big Span Structures todos los derechos reservados. </h4>
+          <h4 class="text-center margin0 color-white font15" style="text-shadow:0 0 3px #000;">©2017 Big Span Structures & Lonas Lorenzo todos los derechos reservados. </h4>
         </div>
         
       </article>
       <article class="slide-actions flex flex-column flex-middle" style="margin-right:150px; position:relative; top:-20px">
         <div class="color-white flex">
            <div @click="beforeImg" class="margin5 pointer rounded square20 flex border1white flex-middle flex-center">
-                <span class="fa fa-chevron-left" style="font-size:.7em; margin-right:2px; margin-top:1px;"></span>
+                <span class="fa fa-chevron-left" style="font-size:.7em; margin-right:2px; margin-top:2px;"></span>
             </div>
             <div @click="nextImg" class="margin5 pointer rounded square20 flex border1white flex-middle flex-center">
-              <span class="fa fa-chevron-right" style="font-size:.7em; margin-left:2px; margin-top:1px;"></span>
+              <span class="fa fa-chevron-right" style="font-size:.7em; margin-left:2px; margin-top:2px;"></span>
             </div>
         </div>
         <section class="flex">

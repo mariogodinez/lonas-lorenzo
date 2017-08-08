@@ -364,6 +364,9 @@ button.fixed
 .padding10-0
   padding: 10px 0
 
+.padding15-0
+  padding: 15px 0
+
 .padding10-5
   padding: 10px 5px
 
@@ -474,6 +477,9 @@ button.fixed
 
 .height100
   height: 100%
+
+.height100vh
+  height: 100vh
 
 .text-center
   text-align: center
@@ -741,4 +747,61 @@ label:hover:before
   right: 100%
   width: 100%
   height: 2px
+
+
+
+input[type="checkbox"].check
+ &:not(:checked), &:checked
+   position: absolute
+   left: -9999px
+ &:not(:checked) + label, &:checked + label
+   position: relative
+   padding-left: 1.95em
+   cursor: pointer
+ &:not(:checked) + label:before, &:checked + label:before
+   content: ''
+   position: absolute
+   left: 0
+   top: 0
+   width: 1.2em
+   height: 1.2em
+   border: 2px solid #ccc
+   background: #fff
+   border-radius: 4px
+   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1)
+ &:not(:checked) + label:after, &:checked + label:after
+   content: '✔'
+   position: absolute
+   top: .35em
+   left: .3em
+   font-size: 1.1em
+   line-height: 0.8
+   color: #10CFBD
+   transition all .2s
+ &:not(:checked) + label:after
+   opacity: 0
+   transform: scale(0)
+ &:checked + label:after
+   opacity: 1
+   transform: scale(1)
+ &:disabled
+   &:not(:checked) + label:before
+     box-shadow: none
+     border-color: #bbb
+     background-color: #ddd
+   &:checked + label
+     &:before
+       box-shadow: none
+       border-color: #bbb
+       background-color: #ddd
+     &:after
+       color: #999
+   + label
+     color: #aaa
+ &:checked:focus + label:before, &:not(:checked):focus + label:before
+   border: 2px solid #4778d9
+
+
+label:hover:before
+  border: 2px solid #4778d9 !important
 </style>

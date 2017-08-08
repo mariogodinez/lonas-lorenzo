@@ -66,7 +66,7 @@ export default {
     </section>
     
     <footer class="home-footer width100 flex flex-center flex-middle">
-      <h4 class="text-cente margin0 color-white">©2017 Lonas Lorenzo todos los derechos reservados.</h4>
+      <h4 class="text-cente margin0 color-white">©2017 Big Span Structures & Lonas Lorenzo todos los derechos reservados.</h4>
     </footer>
   </section>
   </div>

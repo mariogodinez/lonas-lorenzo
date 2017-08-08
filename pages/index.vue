@@ -17,23 +17,32 @@ export default {
       this.lang = val
       console.log($('.home'))
     }
+  },
+  created () {
+    // $('body').on('click', function () {
+    //   alert('intro')
+    // })
   }
 }
 </script>
 
 <template>
 
-  <section class="" style="overflow:hidden;">
+  <section class="" style="">
     <article class="home flex width100" style="height:100vh">
-      <div class="option">
-        <img class="width100 height100" src="intro-left.png" alt="">
+      <div class="option left moveLeft pointer" id="introLeft">
+        <router-link to="./arquitectura" class="color-green">
+          <img class="width100 height100vh" src="aquitectura.jpg" alt="" style="">
+        </router-link>
       </div>
 
-      <div class="option">
-        <img class="width100 height100" src="intro-right.png" alt="">
+      <div class=" option right moveRight pointer" id="introRight">
+        <router-link to="./industrial" class="color-green">
+          <img class="height100vh width100" src="industrial.jpg" alt="" style="">
+        </router-link>
       </div>
     </article>
-    <div class="languages flex padding5 flex-center" style="position: absolute; top:20px; right:100px; border-radius:18px; z-index:10;">
+    <div class="languages flex padding5 flex-center" style="position: absolute; top:20px; z-index:500; right:100px; border-radius:18px;">
       <p class="margin0 font18 color-white pointer" :class="{textActive : lang == 'spanish'}" style="padding-right:7px;border-right:1px solid white;" @click="changeLang('spanish')">
         español
       </p>
@@ -44,7 +53,7 @@ export default {
 
 
     <section class="width100 back-white home-banner flex padding20-0 flex-center">
-      <article class="home-banner-item flex  flex-right" style="padding-right:3px; border-right: 3px solid gray; ">
+      <article class="home-banner-item flex  flex-right relative" style="padding-right:3px; border-right: 3px solid gray; ">
         <div style="margin-right:80px; width:200px">
           <figure class="margin0 width100 relative" style="right:20px">
             <img class="width100" style="" src="logo-bigspan.png">
@@ -76,18 +85,43 @@ export default {
     </section>
 
     <footer class="home-footer width100 flex flex-center flex-middle">
-      <h4 class="text-cente margin0 color-white">©2017 Lonas Lorenzo todos los derechos reservados.</h4>
+      <h4 class="text-cente margin0 color-white">©2017 Big Span Structures & Lonas Lorenzo todos los derechos reservados.</h4>
     </footer>
   </section>
 
 </template>
 <style lang="sass">
+  // .moveRight
+  //   width: 100%
+  //   position: absolute
+  //   transition: .5s
+  //   right: -50%
+  //   &:hover
+  //     right: -20%
+
   .textActive
     text-decoration: underline
   .home
     z-index: 1
     .option
-      width: 50%
+      width: 100%
+      position: absolute
+      transition: .5s
+      cursor: pointer
+      box-shadow: 0 0 20px #000
+    .option.left
+      left: -50%
+      z-index: 10
+      &:hover
+        left: -10%
+        z-index: 15
+
+    .option.right
+      right: -50%
+      z-index: 10
+      &:hover
+        right: -10%
+        z-index: 15
   .home-footer
     position: absolute
     bottom: 0
@@ -101,7 +135,7 @@ export default {
     right: 0
     height: 180px
     width: 100%
-    z-index: 10
+    z-index: 100
     &-item
       width: 50%
 </style>
